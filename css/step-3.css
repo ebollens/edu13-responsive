@@ -1,0 +1,19 @@
+@media (max-width: 760px) and (min-width: 481px) {
+
+	#sidebar ul li {
+		float: left;
+		width: 46%;
+	    padding-right: 4%;
+	}
+	
+}
+
+@media (min-width: 1600px)  {
+
+	#sidebar ul li {
+		float: left;
+		width: 46%;
+	    padding-right: 4%;
+	}
+	
+}

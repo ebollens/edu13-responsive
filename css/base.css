@@ -1,0 +1,164 @@
+/*------------------------------------*\
+	GENERAL
+\*------------------------------------*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #b21;
+	font-size: 18px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+
+
+#header {
+    color: #fff;
+}
+#header h1 {
+    margin: 20px 0 10px 0;
+}
+#header h3 {
+    margin: 0 0 20px 0;
+}
+
+.logo {
+	text-align: center;
+}
+.navigation {
+	background: black;
+}
+
+/*------------------------------------*\
+	NAVIGATION
+\*------------------------------------*/
+.navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+.navigation li {
+	display: inline;
+	padding: 0px 20px;
+	line-height: 60px;
+}
+.navigation li a {
+	color: white;
+}
+
+/*------------------------------------*\
+	FEATURE
+\*------------------------------------*/
+
+#page {
+	background: white;
+}
+.feature img {
+	width: 100%;
+}
+
+/*------------------------------------*\
+	CONTENT
+\*------------------------------------*/
+
+#content {
+	float: left;
+	width: 640px;
+	box-sizing: border-box;
+	padding: 15px;
+	display: inline-block;
+}
+#content h2 {
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 30pt;
+	color: #2A2A2A;
+}
+#content .subtitle {
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 16pt;
+	font-weight: 300;
+}
+#content .subtitle a {
+	color: #D1551F;
+}
+#content a img {
+	display: block;
+	width: 100%;
+}
+.button-style a {
+	display: block;
+	width: 174px;
+	height: 50px;
+	margin-top: 30px;
+	background: black;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+
+/*------------------------------------*\
+	SIDEBAR
+\*------------------------------------*/
+#sidebar {
+	float: left;
+	width: 250px;
+	box-sizing: border-box;
+	padding: 15px;
+	display: inline-block;
+}
+#sidebar ul li {
+	padding: 0px 0px 20px 0px;
+}
+#sidebar p {
+	margin: 0px 0px 10px 0px;
+}
+#sidebar ul .date {
+	display: inline-block;
+	padding: 5px 10px;
+	background: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#sidebar ul a {
+	color: black;
+}
+#sidebar ul .date a {
+	color: #FFFFFF;
+}
+
+/*------------------------------------*\
+	FOOTER
+\*------------------------------------*/
+
+#footer {
+height:: 60px;
+	background: black;
+	color: white;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+#footer p {
+	line-height: 60px;
+}

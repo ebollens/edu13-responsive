@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+
+	#content .description {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 480px) {
+
+	#sidebar img {
+		display: none;
+	}
+	
+}

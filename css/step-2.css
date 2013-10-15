@@ -1,0 +1,8 @@
+@media (max-width: 760px) {
+
+	#sidebar, #content {
+    	float: none;
+    	width: 96.857%; /* left and right padding are 1.5625% */
+    }
+	
+}
