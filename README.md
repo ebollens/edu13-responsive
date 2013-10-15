@@ -73,6 +73,7 @@ This demo was written by Eric Bollens and Amos Williams.
 
 This demo takes advantage of several outstanding open-source products:
 
+* [Respond.js](https://github.com/scottjehl/Respond/blob/master/respond.src.js) - MIT/GPLv2 - Scott Jehl (c) 2012-13
 * [Picturefill](https://github.com/scottjehl/picturefill/blob/master/picturefill.js) - MIT/GPLv2 - Scott Jehl (c) 2012
 * [matchMedia.js](https://github.com/paulirish/matchMedia.js/blob/master/matchMedia.js) - MIT/BSD - Scott Jehl, Paul Irish, Nicholas Zakas, David Knight (c) 2012
 * [matchMedia.addListener.js](https://github.com/paulirish/matchMedia.js/blob/master/matchMedia.addListener.js) - MIT/BSD - Scott Jehl (c) 2012
