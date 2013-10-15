@@ -13,3 +13,29 @@
 	}
 	
 }
+
+
+/*------------------------------------*\
+	NAVIGATION
+\*------------------------------------*/
+
+.navigation select {
+      display: none;
+}
+
+select {
+	font-size: 16px;
+}
+    
+    @media (max-width: 480px) {
+        .navigation ul     { 
+        	display: none; 
+        }
+        .navigation select { 
+        	display: inline-block; 
+        }
+	.navigation {
+		text-align: center; 
+		height: 60px;
+	}
+    }
