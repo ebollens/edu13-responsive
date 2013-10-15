@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <title>Travel Blog</title>
 <link href="./css/base.css" rel="stylesheet" type="text/css">
+<link href="./css/step-1.css" rel="stylesheet" type="text/css">
+<link href="./css/step-2.css" rel="stylesheet" type="text/css">
+<link href="./css/step-3.css" rel="stylesheet" type="text/css">
+<link href="./css/step-4.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/matchMedia.js"></script>
+<script type="text/javascript" src="js/matchMedia.addListener.js"></script>
+<script type="text/javascript" src="js/picturefill.js"></script>
 </head>
 <body>
 
@@ -61,7 +68,14 @@
           <div></a></div>
           <p class="subtitle">
               <a href="#">
-                  <img src="images/city1.jpg" alt="">
+                  <span data-picture data-alt="">
+                        <span data-src="images/city1-360.jpg"></span>
+                        <span data-src="images/city1-480.jpg" data-media="(min-width: 361px)"></span>
+                        <span data-src="images/city1.jpg"     data-media="(min-width: 481px)"></span>
+                        <noscript>
+                            <img src="images/city1.jpg" alt="">
+                        </noscript>
+                  </span>
                   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </a>
           </p>
@@ -72,7 +86,14 @@
           <h2>Lorem ipsum dolor sit amet</h2>
           <p class="subtitle">
               <a href="#">
-                  <img src="images/city2.jpg" alt="">
+                  <span data-picture data-alt="">
+                        <span data-src="images/city2-360.jpg"></span>
+                        <span data-src="images/city2-480.jpg" data-media="(min-width: 361px)"></span>
+                        <span data-src="images/city2.jpg"     data-media="(min-width: 481px)"></span>
+                        <noscript>
+                            <img src="images/city2.jpg" alt="">
+                        </noscript>
+                  </span>
                   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </a>
           </p>
@@ -83,7 +104,14 @@
           <h2>Lorem ipsum dolor sit amet</h2>
           <p class="subtitle">
               <a href="#">
-                  <img src="images/city3.jpg" alt="">
+                  <span data-picture data-alt="">
+                        <span data-src="images/city3-360.jpg"></span>
+                        <span data-src="images/city3-480.jpg" data-media="(min-width: 361px)"></span>
+                        <span data-src="images/city3.jpg"     data-media="(min-width: 481px)"></span>
+                        <noscript>
+                            <img src="images/city3.jpg" alt="">
+                        </noscript>
+                  </span>
                   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </a>
           </p>
